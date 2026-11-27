@@ -15,9 +15,10 @@ del .wc-block-components-formatted-money-amount {
     opacity: 1 !important;
 }
 
-/* Header cart item count: raise contrast to meet WCAG AA (was 2.84:1, #999 on white) */
+/* Header cart item count: raise contrast to meet WCAG AA (colour was #999 on white, 2.84:1; the theme applies 50% opacity) */
 .site-header .site-header-cart .cart-contents .count {
     color: #666;
+    opacity: 1;
 }
 
 /* 2. Client overrides live in each site's own child theme or Customizer, not here. */
