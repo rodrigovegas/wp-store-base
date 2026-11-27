@@ -2,7 +2,7 @@
 Theme Name: Base Child
 Template: storefront
 Description: Reusable child theme base for client WooCommerce stores
-Version: 1.0.1
+Version: 1.0.2
 */
 
 /* 1. Components (shared across all client sites) */
@@ -13,6 +13,11 @@ del .woocommerce-Price-amount,
 del .wc-block-components-formatted-money-amount {
     color: #666 !important;
     opacity: 1 !important;
+}
+
+/* Header cart item count: raise contrast to meet WCAG AA (was 2.84:1, #999 on white) */
+.site-header .site-header-cart .cart-contents .count {
+    color: #666;
 }
 
 /* 2. Client overrides live in each site's own child theme or Customizer, not here. */
