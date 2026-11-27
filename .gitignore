@@ -1,0 +1,13 @@
+# Ignore everything by default
+/*
+
+# ...except our own code
+!/.gitignore
+!/README.md
+!/docs/
+!/themes/
+/themes/*
+!/themes/base-child/
+!/plugins/
+/plugins/*
+!/plugins/site-core/
